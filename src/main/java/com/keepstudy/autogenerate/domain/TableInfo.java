@@ -1,4 +1,4 @@
-package com.keepstudy.domain;
+package com.keepstudy.autogenerate.domain;
 
 import java.util.List;
 

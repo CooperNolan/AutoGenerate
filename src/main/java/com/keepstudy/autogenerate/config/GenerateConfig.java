@@ -1,8 +1,8 @@
-package com.keepstudy.config;
+package com.keepstudy.autogenerate.config;
 
 import com.alibaba.fastjson.JSONObject;
-import com.keepstudy.generate.GenerateStrategy;
-import com.keepstudy.generate.impl.BaseGenerateStrategy;
+import com.keepstudy.autogenerate.generate.GenerateStrategy;
+import com.keepstudy.autogenerate.generate.impl.BaseGenerateStrategy;
 
 import java.util.ArrayList;
 import java.util.List;

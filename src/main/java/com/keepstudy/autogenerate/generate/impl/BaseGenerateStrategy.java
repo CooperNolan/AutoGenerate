@@ -1,9 +1,9 @@
-package com.keepstudy.generate.impl;
+package com.keepstudy.autogenerate.generate.impl;
 
 import com.alibaba.fastjson.JSONObject;
-import com.keepstudy.config.GenerateConfig;
-import com.keepstudy.domain.TableInfo;
-import com.keepstudy.generate.GenerateStrategy;
+import com.keepstudy.autogenerate.config.GenerateConfig;
+import com.keepstudy.autogenerate.domain.TableInfo;
+import com.keepstudy.autogenerate.generate.GenerateStrategy;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;

@@ -1,4 +1,4 @@
-package com.keepstudy.service;
+package com.keepstudy.autogenerate.service;
 
 import java.io.IOException;
 import java.sql.SQLException;

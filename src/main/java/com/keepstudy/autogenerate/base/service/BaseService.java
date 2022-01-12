@@ -1,4 +1,4 @@
-package com.keepstudy.base.service;
+package com.keepstudy.autogenerate.base.service;
 
 import java.util.List;
 

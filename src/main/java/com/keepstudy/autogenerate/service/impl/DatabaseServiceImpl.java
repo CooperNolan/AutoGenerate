@@ -1,12 +1,12 @@
-package com.keepstudy.service.impl;
+package com.keepstudy.autogenerate.service.impl;
 
-import com.keepstudy.config.GenerateConfig;
-import com.keepstudy.domain.FieldInfo;
-import com.keepstudy.domain.TableInfo;
-import com.keepstudy.generate.GenerateStrategy;
-import com.keepstudy.service.DatabaseService;
-import com.keepstudy.utils.JavaType;
-import com.keepstudy.utils.StringUtils;
+import com.keepstudy.autogenerate.config.GenerateConfig;
+import com.keepstudy.autogenerate.domain.FieldInfo;
+import com.keepstudy.autogenerate.domain.TableInfo;
+import com.keepstudy.autogenerate.generate.GenerateStrategy;
+import com.keepstudy.autogenerate.service.DatabaseService;
+import com.keepstudy.autogenerate.utils.JavaType;
+import com.keepstudy.autogenerate.utils.StringUtils;
 import freemarker.template.Configuration;
 import freemarker.template.TemplateExceptionHandler;
 
@@ -49,7 +49,7 @@ public class DatabaseServiceImpl implements DatabaseService {
 
     public List<TableInfo> getTableInfo() throws SQLException {
         DatabaseMetaData metaData = this.connection.getMetaData();
-        ResultSet resultSet = metaData.getTables(this.connection.getCatalog(), null, "user", new String[]{"TABLE"});
+        ResultSet resultSet = metaData.getTables(this.connection.getCatalog(), null, null, new String[]{"TABLE"});
 
         List<TableInfo> tableInfoList = new ArrayList<>();
         while (resultSet.next()) {

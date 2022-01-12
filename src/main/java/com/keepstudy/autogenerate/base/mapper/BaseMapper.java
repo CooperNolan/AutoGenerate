@@ -1,4 +1,4 @@
-package com.keepstudy.base.mapper;
+package com.keepstudy.autogenerate.base.mapper;
 
 import java.util.List;
 
