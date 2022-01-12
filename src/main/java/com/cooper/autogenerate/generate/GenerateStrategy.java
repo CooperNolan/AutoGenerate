@@ -1,7 +1,7 @@
-package com.keepstudy.autogenerate.generate;
+package com.cooper.autogenerate.generate;
 
-import com.keepstudy.autogenerate.config.GenerateConfig;
-import com.keepstudy.autogenerate.domain.TableInfo;
+import com.cooper.autogenerate.config.GenerateConfig;
+import com.cooper.autogenerate.domain.TableInfo;
 import freemarker.template.Configuration;
 
 public interface GenerateStrategy {

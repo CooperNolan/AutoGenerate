@@ -1,8 +1,8 @@
-package com.keepstudy.autogenerate.config;
+package com.cooper.autogenerate.config;
 
 import com.alibaba.fastjson.JSONObject;
-import com.keepstudy.autogenerate.generate.GenerateStrategy;
-import com.keepstudy.autogenerate.generate.impl.BaseGenerateStrategy;
+import com.cooper.autogenerate.generate.GenerateStrategy;
+import com.cooper.autogenerate.generate.impl.BaseGenerateStrategy;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,7 +56,7 @@ public class GenerateConfig {
         public DatabaseConfigBuilder() {
             this.generateConfig.driver = "com.mysql.cj.jdbc.Driver";
             this.generateConfig.dirType = 1;
-            this.generateConfig.generatePackage = "com.database";
+            this.generateConfig.generatePackage = "com.cooper.db";
             this.generateConfig.generateStrategyList = new ArrayList<>();
         }
 

@@ -1,6 +1,6 @@
-package com.keepstudy.autogenerate.base.service.impl;
+package com.cooper.autogenerate.base.service.impl;
 
-import com.keepstudy.autogenerate.base.mapper.BaseMapper;
+import com.cooper.autogenerate.base.mapper.BaseMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

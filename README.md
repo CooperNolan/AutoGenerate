@@ -4,9 +4,9 @@
 
 ```java
 JSONObject subData = new JSONObject(); // 补充数据，在这里可以设置base文件包名
-subData.put("baseMapper", "com.keepstudy.autogenerate.base.mapper.BaseMapper"); // Mapper 继承的基类
-subData.put("baseService", "com.keepstudy.autogenerate.base.service.BaseService"); // Service 继承的基类
-subData.put("baseServiceImpl", "com.keepstudy.autogenerate.base.service.impl.BaseServiceImpl"); // ServiceImpl继承的基类
+subData.put("baseMapper", "com.cooper.autogenerate.base.mapper.BaseMapper"); // Mapper 继承的基类
+subData.put("baseService", "com.cooper.autogenerate.base.service.BaseService"); // Service 继承的基类
+subData.put("baseServiceImpl", "com.cooper.autogenerate.base.service.impl.BaseServiceImpl"); // ServiceImpl继承的基类
 // 配置信息
 GenerateConfig generateConfig = new GenerateConfig.DatabaseConfigBuilder()
     .url("jdbc:mysql://127.0.0.1:3306/user")

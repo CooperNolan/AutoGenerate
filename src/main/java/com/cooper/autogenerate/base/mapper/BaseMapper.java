@@ -1,8 +1,8 @@
-package com.keepstudy.autogenerate.base.service;
+package com.cooper.autogenerate.base.mapper;
 
 import java.util.List;
 
-public interface BaseService<Entry, Key> {
+public interface BaseMapper<Entry, Key> {
 
     Entry selectByKey(Key key);
 

@@ -1,4 +1,4 @@
-package com.keepstudy.autogenerate.service;
+package com.cooper.autogenerate.service;
 
 import java.io.IOException;
 import java.sql.SQLException;

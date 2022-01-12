@@ -1,4 +1,4 @@
-package com.keepstudy.autogenerate.domain;
+package com.cooper.autogenerate.domain;
 
 public class FieldInfo {
 

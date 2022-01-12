@@ -1,4 +1,4 @@
-package com.keepstudy.autogenerate.utils;
+package com.cooper.autogenerate.utils;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

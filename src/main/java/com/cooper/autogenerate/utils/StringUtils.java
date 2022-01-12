@@ -1,4 +1,4 @@
-package com.keepstudy.autogenerate.utils;
+package com.cooper.autogenerate.utils;
 
 public class StringUtils{
 

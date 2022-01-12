@@ -1,12 +1,12 @@
-package com.keepstudy.autogenerate.service.impl;
+package com.cooper.autogenerate.service.impl;
 
-import com.keepstudy.autogenerate.config.GenerateConfig;
-import com.keepstudy.autogenerate.domain.FieldInfo;
-import com.keepstudy.autogenerate.domain.TableInfo;
-import com.keepstudy.autogenerate.generate.GenerateStrategy;
-import com.keepstudy.autogenerate.service.DatabaseService;
-import com.keepstudy.autogenerate.utils.JavaType;
-import com.keepstudy.autogenerate.utils.StringUtils;
+import com.cooper.autogenerate.generate.GenerateStrategy;
+import com.cooper.autogenerate.config.GenerateConfig;
+import com.cooper.autogenerate.domain.FieldInfo;
+import com.cooper.autogenerate.domain.TableInfo;
+import com.cooper.autogenerate.service.DatabaseService;
+import com.cooper.autogenerate.utils.JavaType;
+import com.cooper.autogenerate.utils.StringUtils;
 import freemarker.template.Configuration;
 import freemarker.template.TemplateExceptionHandler;
 
