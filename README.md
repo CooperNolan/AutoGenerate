@@ -19,6 +19,7 @@ GenerateConfig generateConfig = new GenerateConfig.DatabaseConfigBuilder()
     .addDefaultGenerate("dao", "Mapper.java", "dao.ftl", subData)
     .addDefaultGenerate("mapper", "Mapper.xml", "mapper.ftl")
     .addDefaultGenerate("mapper", "ExtMapper.xml", "mapperExt.ftl")
+    .addDefaultGenerate("controller", "Controller.java", "controller.ftl", subData)
     .dirByType() // 创建目录方式；byType按照类型创建 byTable安装数据库表名创建
     .build();
 DatabaseService databaseService = new DatabaseServiceImpl(generateConfig);

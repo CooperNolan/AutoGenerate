@@ -9,6 +9,7 @@ public class TableInfo {
 
     private String javaName;
     private String javaName_fwl; // first word low
+    private String javaName_awl; // all word low
 
     private FieldInfo primary;
     private List<FieldInfo> fieldInfoList;
@@ -35,6 +36,14 @@ public class TableInfo {
 
     public void setJavaName_fwl(String javaName_fwl) {
         this.javaName_fwl = javaName_fwl;
+    }
+
+    public String getJavaName_awl() {
+        return javaName_awl;
+    }
+
+    public void setJavaName_awl(String javaName_awl) {
+        this.javaName_awl = javaName_awl;
     }
 
     public String getDbRemark() {

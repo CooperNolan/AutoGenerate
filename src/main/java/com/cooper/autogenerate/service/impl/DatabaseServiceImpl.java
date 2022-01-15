@@ -59,6 +59,7 @@ public class DatabaseServiceImpl implements DatabaseService {
             tableInfo.setDbRemark(resultSet.getString("REMARKS"));
             tableInfo.setJavaName_fwl(StringUtils.javaName(tableInfo.getDbName()));
             tableInfo.setJavaName(StringUtils.toFirstUp(tableInfo.getJavaName_fwl()));
+            tableInfo.setJavaName_awl(tableInfo.getJavaName().toLowerCase());
 
             ResultSet primaryKeys = metaData.getPrimaryKeys(this.connection.getCatalog(), null, tableInfo.getDbName());
             String primaryKeyName = null;

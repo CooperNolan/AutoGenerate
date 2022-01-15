@@ -26,6 +26,7 @@ public class Run {
                 .addDefaultGenerate("dao", "Mapper.java", "dao.ftl", subData)
                 .addDefaultGenerate("mapper", "Mapper.xml", "mapper.ftl")
                 .addDefaultGenerate("mapper", "ExtMapper.xml", "mapperExt.ftl")
+                .addDefaultGenerate("controller", "Controller.java", "controller.ftl", subData)
                 .dirByType()
                 .build();
         DatabaseService databaseService = new DatabaseServiceImpl(generateConfig);
